@@ -36,21 +36,31 @@ Credit Score             1.000000000        -0.001384293
 Estimated Salary    -0.001384293         1.000000000
 
 4.statistical model to explain and establish a mathematical relationship between credit score (dependent) and gender, age, estimate salary.
+
 MULTI LINEAR REGRESSION
+
 Residuals:
-     Min       1Q   Median       3Q      Max 
+    
+    Min       1Q   Median       3Q      Max 
 -300.630  -66.880    1.262   66.930  201.174 
 
 Coefficients:
-                  Estimate Std. Error t value Pr(>|t|)    
+                 Estimate Std. Error t value Pr(>|t|)    
+
 (Intercept)      6.525e+02  4.254e+00 153.382   <2e-16 ***
+
 Age             -3.739e-02  9.221e-02  -0.405    0.685    
+
 GenderMale      -5.785e-01  1.942e+00  -0.298    0.766    
+
 EstimatedSalary -2.416e-06  1.681e-05  -0.144    0.886    
 ---
+
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 96.67 on 9996 degrees of freedom
+
 Multiple R-squared:  2.659e-05,	Adjusted R-squared:  -0.0002735 
+
 F-statistic: 0.0886 on 3 and 9996 DF,  p-value: 0.9663
 
